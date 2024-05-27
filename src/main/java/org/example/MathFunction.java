@@ -2,6 +2,8 @@ package org.example;
 
 public class MathFunction {
 
+    private String test = "test";
+    
     public int plus(int a, int b){
         return a+b;
     }
