@@ -13,6 +13,7 @@ class MathFunctionsTest {
         assertEquals(5, mathFunction.plus(2, 3), "2 + 3 should equal 5");
         assertEquals(-1, mathFunction.plus(-2, 1), "-2 + 1 should equal -1");
         assertEquals(0, mathFunction.plus(0, 0), "0 + 0 should equal 0");
+        assertNotEquals(0, mathFunction.plus(1, 0), "1 + 0 should equal 1");
     }
 
     @Test
